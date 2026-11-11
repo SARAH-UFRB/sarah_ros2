@@ -1,4 +1,4 @@
-# 'sarah_ros2'
+# `sarah_ros2`
 
 This repo contains basic wrapper for SARAH robot comunication.
 
@@ -8,7 +8,7 @@ This repo contains basic wrapper for SARAH robot comunication.
 Basic set of nodes for robot monitore and control. Based in kobuki plataform comunication paterner.
 
 ### Tópicos Publicados
-* '~cmd_vel' - informação do tóopico ([sensor_msgs/Image](http://docs.ros.org/api/sensor_msgs/html/msg/Image.html)) tipo de mensagem e link para a documentação do ROS
+* `~cmd_vel` - informação do tóopico ([sensor_msgs/Image](http://docs.ros.org/api/sensor_msgs/html/msg/Image.html)) tipo de mensagem e link para a documentação do ROS
 
 ## Instalação
 
@@ -16,7 +16,7 @@ Basic set of nodes for robot monitore and control. Based in kobuki plataform com
 Copy the repo to your workspace source folder.
 ~~~
 cd ~/ws/src
-git clone
+git clone https://github.com/SARAH-UFRB/sarah_ros2.git
 ~~~
 ### 2. Install any missing ROS packages
 Use `rosdep` from the top directory of your workspace to install any missing ROS related dependency.
