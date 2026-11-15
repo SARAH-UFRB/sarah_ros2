@@ -15,6 +15,7 @@ Basic set of nodes for robot monitore and control. Based in kobuki plataform com
 ### 1. Copy o repositório
 Copy the repo to your workspace source folder.
 ~~~
+mkdir -p ~/ws/src
 cd ~/ws/src
 git clone https://github.com/SARAH-UFRB/sarah_ros2.git
 ~~~
