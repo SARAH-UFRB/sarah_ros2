@@ -26,6 +26,19 @@ cd ~/ws
 rosdep install --from-paths src --ignore-src -r -y
 ~~~
 
+
+
+### 3. Configuring kobuki driver
+
+Before running any driver, set up the udev rules so Ubuntu recognizes the robot at /dev/kobuki without requiring sudo.
+• Download and install the udev rule. Run the following commands in your terminal:bash
+~~~ 
+wget https://raw.githubusercontent.com/kobuki-base/kobuki_ftdi/devel/60-kobuki.rules
+sudo cp 60-kobuki.rules /etc/udev/rules.d/
+sudo service udev reload
+sudo service udev restart
+~~~ 
+
 ### 3. Build your workspace
 From the top directory of your workspace, use `colcon` to build your packages.
 ~~~
